@@ -255,7 +255,7 @@ export function CaseForm() {
 
             <div>
               <label className="block text-sm font-medium mb-1">
-                Father's Name <span className="text-red-500">*</span>
+                Father&apos;s Name <span className="text-red-500">*</span>
               </label>
               <input
                 type="text"

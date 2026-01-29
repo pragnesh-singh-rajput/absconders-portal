@@ -6,7 +6,6 @@ import { Layout } from './components/Layout';
 import { Toaster } from 'react-hot-toast';
 import { Dashboard } from './pages/Dashboard';
 import { Login } from './pages/Login';
-import { Signup } from './pages/Signup';
 import { CaseList } from './pages/CaseList';
 import { CaseForm } from './pages/CaseForm';
 import { Analytics } from './pages/Analytics';
@@ -50,7 +49,7 @@ function ProtectedRoute({ children, requiredRoles = ['admin', 'investigator', 'v
       <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
         <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg max-w-md w-full text-center">
           <h1 className="text-2xl font-bold text-red-600 mb-4">Access Denied</h1>
-          <p className="mb-6">You don't have permission to access this page.</p>
+          <p className="mb-6">You don&apos;t have permission to access this page.</p>
           <button
             onClick={() => window.history.back()}
             className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all duration-300"
@@ -79,7 +78,6 @@ function App() {
               <AnimatePresence mode="wait">
                 <Routes>
                   <Route path="/login" element={<Login />} />
-                  <Route path="/signup" element={<Signup />} />
                   <Route
                     path="/"
                     element={

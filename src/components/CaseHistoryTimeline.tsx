@@ -93,7 +93,7 @@ export function CaseHistoryTimeline({
                           <>
                             {event.action === 'update' && (
                               <>
-                                Updated {event.field} from "{event.previousValue}" to "{event.newValue}"
+                                Updated {event.field} from &quot;{event.previousValue}&quot; to &quot;{event.newValue}&quot;
                               </>
                             )}
                             {event.action === 'view' && (

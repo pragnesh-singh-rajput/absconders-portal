@@ -239,7 +239,7 @@ export function CaseDetail() {
                   <p className="mt-1">{criminal.age}</p>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-500 dark:text-gray-400">Father's Name</label>
+                  <label className="block text-sm font-medium text-gray-500 dark:text-gray-400">Father&apos;s Name</label>
                   <p className="mt-1">{criminal.fatherName}</p>
                 </div>
                 <div>
